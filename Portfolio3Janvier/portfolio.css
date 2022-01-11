@@ -1,0 +1,223 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Permanent+Marker&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', 'sans-serif';
+}
+a {
+    text-decoration: none;
+}
+#navbarNav {
+    background-color: #e2dfdf;
+    padding: 0%;
+    margin: 0%;
+}
+.section1 {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#accueil {
+    background-image:url(/img/laptopcoding.png);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: -1;
+}
+#accueil::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+.section1 h1 {
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+    align-items: center;
+    justify-content: left;
+}
+.boutonsection1 .apropos1 {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+.boutonsection1.apropos1::before {
+    color: white;
+    background-color: crimson;
+    margin-top: 36px;
+    transition: .3s ease;
+    transition-property:color;
+    
+}
+.boutonsection1 .competences1 {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+#apropos2 {
+    min-height: 55vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.apropostitre {
+    background-color: #e2dfdf;
+    width: 100%;
+    height: 100%;
+}
+.apropossoustitre {
+    color: crimson;
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    box-sizing: border-box;
+    text-align: center;
+}
+.apropossoustitre2 {
+    display: flex;
+    color: black;
+    font-size: 1.5rem;
+    align-self: center;
+    justify-content: center;
+}
+#monparcours1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+#monparcours1 .gauche{
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#monparcours1 .droite {
+    padding-top: 55px;
+    padding-left: 30px;
+}
+.photo1 {
+    border: 0;
+    border-radius: 10%;
+}
+.liste1 {
+    padding-left: 50px;
+    font-family: 'Permanent Marker', cursive;
+    list-style-type: none;
+}
+.annee1 {
+    font-size:200%;
+    color: crimson;
+}
+.annee1bis {
+    font-size:150%;
+    font-family: 'Montserrat', 'sans-serif';
+}
+.annee2 {
+    font-size:200%;
+    color: crimson;
+}
+.annee2bis {
+    font-size:150%;
+    font-family: 'Montserrat', 'sans-serif';
+}
+.annee3 {
+    font-size:200%;
+    color: crimson;
+}
+.annee3bis {
+    font-size:150%;
+    font-family: 'Montserrat', 'sans-serif';
+}
+#competences1 {
+    background-color: #e2dfdf;
+    width: 100%;
+    height: 100%;
+}
+.comptencessoustitre {
+    color: crimson;
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    box-sizing: border-box;
+    text-align: center;
+}
+.competencessoustitre2 {
+    display: flex;
+    color: black;
+    font-size: 1.5rem;
+    justify-content: center;
+    }
+.frontendliste2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logohtml {
+    width: 95%;
+}
+.logocss {
+    width: 100%;
+}
+.logojs {
+    width: 115%;
+}
+.contact {
+    background-color:#e2dfdf;
+    width: 100%;
+    height: 100%;
+}
+.contactsoustitre {
+    color: crimson;
+    font-size: 2.5rem;
+    font-family: 'Permanent Marker', cursive;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    box-sizing: border-box;
+    text-align: center;
+}
+.contactcontenu {
+    display: flex;
+    justify-content: end;
+}
+.logoFB {
+    width: 15%;
+}
+.logolinkedIn {
+    width: 15%;
+}
+#footer {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    width: 100%;;
+}
